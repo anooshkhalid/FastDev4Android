@@ -1,149 +1,135 @@
-<span style={textcolor="#FF0000"}>【好消息】个人网站已经上线运行,后面博客以及技术干货等精彩文章会同步更新，请大家关注收藏:<a href="http://www.lcode.org">http://www.lcode.org</a></span></br>
-本人CSDN博文地址<a href="http://blog.csdn.net/developer_jiangqq">http://blog.csdn.net/developer_jiangqq</a></br>
-本人维护的微信订阅号,欢迎大家微信关注一下!定期分享移动技术干货,项目管理和博客文章!</br>
-<img src="http://img.blog.csdn.net/20151229084251042"/>
-###本人最新录制的实战项目视频-菜鸟新闻<a href="http://www.cniao5.com/clazz/news.html">点击进入</a>
-###简介如下:
-菜鸟新闻安卓客户端-是一个仿照36Kr官方App,实时抓取36Kr官网数据的资讯类新闻客户端</br>
-包括首页新闻,详情,发现,活动,实时数据抓取,侧滑效果,第三方登录以及分享,消息推送等相关功能客户端。</br>
-学习目标:</br>
-1.掌握Android 5.0以上的相关技术控件使用(RecyclerView,CardView);</br>
-2.熟悉目前主流开源框架的使用:Okhttp,Volley,UIL,Fresco,EventBus....</br>
-3.熟悉数据抓取爬虫技术;</br>
-4.第三方集成登录与分享,消息推送数据统计集成。</br>
-5.掌握项目架构,开发流程</br>
-6.独立开发APP </br>
-<a href="http://www.cniao5.com/clazz/news.html">http://www.cniao5.com/clazz/news.html</a></br>
-<a href="http://www.cniao5.com/clazz/news.html"><img src="http://img.blog.csdn.net/20151208083154419"></a></br>
-
-###<a href="http://blog.csdn.net/developer_jiangqq">关于本人</a>
-邮箱:jiangqqlmj@163.com</br>
-本人微信/QQ:781931404</br>
-Android技术交流群:99787482</br>
-<img src="http://img.blog.csdn.net/20151121085753187"/></br>
-Android开发群1:107086751</br>
-Android开发群3:109244103</br>
-
-<p># FastDev4Android</p>
-本项目是Android快速开发框架，采用AndroidStudio进行开发。
-预想集成工具包,ORM,网络请求(HTTPClint,Volley,OkHttps),数据解析,依赖注入,xutils,图片异步加载，二维码扫描等等<br>
-同时会包括工作中自己封装的一些组件和控件.
-后续会进行逐步添加
-整体项目目录如下:
-<p>FastDev4Android</p>
-<table border="1" cellspacing="1" style="border-collapse:collapse">
-    <tr>
-        <th>包名</th><th>描述</th>
-    </tr>
-    <tr><td>libs</td> <td>一些公共jar包库</td></tr>
-    <tr><td>adapter</td><td>适配器</td></tr>
-    <tr><td>application</td><td>全局application</td></tr>
-    <tr><td>base</td><td>基类包</td></tr>
-    <tr><td>cache</td><td>数据缓存相关处理</td></tr>
-    <tr><td>common</td><td>公共类,或者配置相关</td></tr>
-    <tr><td>db</td><td>数据库操作相关</td></tr>
-    <tr><td>event</td><td>事件处理相关</td></tr>
-    <tr><td>fragment</td><td>fragment操作管理相关</td></tr>
-    <tr><td>html5</td><td>webview处理,重写webview</td></tr>
-    <tr><td>json</td><td>json数据解析</td></tr>
-    <tr><td>listlogic</td><td>网络数据请求加载分发</td></tr>
-    <tr><td>location</td><td>位置相关</td></tr>
-    <tr><td>model</td><td>实体类</td></tr>
-    <tr><td>push</td><td>消息推送</td></tr>
-    <tr><td>sensor</td><td>设备传感器相关</td></tr>
-    <tr><td>spreference</td><td>SharedPerference管理</td></tr>
-    <tr><td>test</td><td>消息推送</td></tr>
-    <tr><td>ui</td><td>Activity UI相关</td></tr>
-    <tr><td>update</td><td>APP自动更新相关</td></tr>
-    <tr><td>utils</td><td>项目各种工具类</td></tr>
-    <tr><td>widget</td><td>自定义控件</td></tr>
-    <tr><td>crash</td><td>自定义崩溃异常处理</td></tr>
-    <tr><td>receiver</td><td>广播通知处理</td></tr>
-</table>
-
-<p><a href="http://blog.csdn.net/developer_jiangqq" style="text-decoration: none;"  target="_blank"><span style="color:blue;">20151201框架更新:</span></a></p>
-一.返照网易新闻Tab标签和页面切换滑动;<br/>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/50145759" target="_blank">HorizontalScrollView,Fragment,FragmentStatePagerAdapter打造网易新闻Tab及滑动页面效果(三十六)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/50158985" target="_blank">Design支持库TabLayout打造仿网易新闻Tab标签效果(三十七)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq" target="_blank">更多项目内容请详见CSDN博客!</a></br>
-</br>
-
-<p><a href="http://blog.csdn.net/developer_jiangqq" style="text-decoration: none;"  target="_blank"><span style="color:blue;">20151119框架更新:</span></a></p>
-一.RecyclerView控件完全解析;<br/>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49927631" target="_blank">RecyclerView完全解析,让你从此爱上它(二十八)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49946589" target="_blank">RecyclerView完全解析之打造新版类Gallery效果(二十九)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49967587" target="_blank">RecyclerView完全解析之结合AA(Android Annotations)注入框架实例(三十)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49992269" target="_blank">RecyclerView完全解析之下拉刷新与上拉加载SwipeRefreshLayout(三十一)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/50000733" target="_blank">CardView完全解析与RecyclerView结合使用(三十二)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/50087873" target="_blank">实例解析之SwipeRefreshLayout+RecyclerView+CardView(三十五)</a></br>
-</br>
-二.ViewDragHelper控件完全解析;<br/>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/50033453" target="_blank">神器ViewDragHelper完全解析,妈妈再也不担心我自定义ViewGroup滑动View操作啦~(三十三)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/50043159" target="_blank">神器ViewDragHelper完全解析之详解实现QQ5.X侧滑酷炫效果(三十四)</a></br>
-</br>
+<Span style = {textcolor = "# FF0000"}> [good news] personal website has been running on the line, behind the blog and technical dry goods and other exciting articles will be updated, please focus on collections:Http://www.lcode.org
+I CSDN Bowen addressHttp://blog.csdn.net/developer_jiangqq
+I maintain the micro- subscription number, welcome to WeChat concerned about! Regularly share mobile technology dry goods, project management and blog articles! 
+ # # # I recently recorded the actual project video - rookie news click Enter the ### profile as follows: rookie news Andrews client - is a modeled by 36Kr official App, real-time crawling 36Kr official website information news news client 
+includes home news, details, discovery , activity, real-time data capture, , Third-party login and sharing, message push and other related features client. 
+Learning 
+objectives : 1. Master Android 5.0 or more related to the use of technical controls (RecyclerView, CardView); 
+2. Familiar with the current use of the mainstream open source framework: Okhttp, Volley, UIL, Fresco, EventBus .... 
+3. Familiar with the data crawler Technology; 
+4. third-party integrated login and sharing, message push data statistics integration. 
+5. Master the project structure, development process 
+6. Independent development of APP
+Http://www.cniao5.com/clazz/news.html
 
 
-<p><a href="http://blog.csdn.net/developer_jiangqq" style="text-decoration: none;"  target="_blank"><span style="color:blue;">20151110框架更新:</span></a></p>
-一.Volley网络框架基本使用;<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;项目中我是采用库引用方式引入Volley框架,这边Volley库也已经同步上传了,大家直接编译运行即可;<br/>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49797945" target="_blank">Volley完全解析之基础使用(二十六)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49804487" target="_blank">Volley完全解析之进阶最佳实践与二次封装(二十七)</a></br>
-
-<p><a href="http://blog.csdn.net/developer_jiangqq" style="text-decoration: none;"  target="_blank"><span style="color:blue;">20151101框架更新:</span></a></p>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49612399" target="_blank">非常漂亮的进度指示器AVLoadingIndicatorView的使用讲解(十八)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49613861" target="_blank">Android MVP开发模式详解(十九)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49617189" target="_blank">消息总线EventBus的基本使用(二十)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49640153">消息总线EventBus源码分析以及与Otto框架对比(二十一)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49680415" target="_blank">列表头生成带文本或者字母的图片开源库TextDrawable使用和详解(二十二)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49687613" target="_blank">重写WebView网页加载以及JavaScript注入详解(二十三)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49724999" target="_blank">BaseAdapterHelper的基本使用介绍,让你摆脱狂写一堆Adapter烦恼(二十四)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49745257" target="_blank">BaseAdapterHelper详解源码分析,让你摆脱狂写一堆Adapter烦恼(二十五)</a></br>
-<br/>
-
-<p><a href="http://blog.csdn.net/developer_jiangqq" style="text-decoration: none;"  target="_blank"><span style="color:blue;">20151029注入框架更新:</span></a></p>
-更新了AndroidAnnotations注入框架的使用详解:</br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49468923" target="_blank">AndroidAnnnotations注入框架介绍和Android Studios基本配置(一)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49471543" target="_blank">AndroidAnnnotations注入框架的工作原理(二)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49490083" target="_blank">AndroidAnnnotations注入框架使用之注入组件Components(三)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49497955" target="_blank">AndroidAnnnotations注入框架使用之Injection标签详解(四)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49512513" target="_blank">AndroidAnnnotations注入框架使用之事件绑定Event Binding(五)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49518299" target="_blank">AndroidAnnnotations注入框架使用之线程处理Threading(六)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49530307" target="_blank">AndroidAnnnotations注入框架使用之第三方框架集成RoboGuice(七)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49530731" target="_blank">AndroidAnnnotations注入框架使用之第三方框架集成Otto事件总线(八)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49530971" target="_blank">AndroidAnnnotations注入框架使用之第三方框架集成OrmLite(九)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49531669" target="_blank">AndroidAnnnotations注入框架使用之最佳实践之Adapters和lists(十)</a></br>
-<a href="http://blog.csdn.net/developer_jiangqq/article/details/49583487" target="_blank">AndroidAnnnotations注入框架使用之最佳实践SharedPreferences(十一)</a></br>
-<br/>
-
-<p><a href="http://blog.csdn.net/developer_jiangqq" style="text-decoration: none;"  target="_blank"><span style="color:blue;">V1.1.1_003版本功能如下:</span></a></p>
-一.新增沉浸式状态栏功能实现;<br/>
-二.新增MVP开发模式功能Demo;<br/>
-以上该组件全部在MainActivity中有相应的使用实例;<br/>
-
-<img src="https://github.com/jiangqqlmj/FastDev4Android/blob/master/demo.gif"/><br/><br/>
-
-<p><a href="http://blog.csdn.net/developer_jiangqq" style="text-decoration: none;"  target="_blank"><span style="color:blue;">V1.1_002版本功能如下:</span></a></p>
-一.新增首页图片自动无限轮播组件和指示器(AutoGallery+FlowIndicator);<br/>
-二.新增列表下拉刷新组件(PullToRefreshListView);<br/>
-三.新增本地轻量级数据缓存组件(ACache);<br/>
-四.新增应用自定义崩溃日志捕捉组件(CustomCrash);<br/>
-以上该组件全部在MainActivity中有相应的使用实例;<br/>
-
-<p><a href="http://blog.csdn.net/developer_jiangqq" style="text-decoration: none;"  target="_blank"><span style="color:blue;">V1.0_001版本功能如下:</span></a></p>
-一.Utils工具类加入<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;1.DataUtils 时间日期处理<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;2.GuideUtils 是否启动引导处理标志管理<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;3.IoUtils 网络请求工具类【特别注意】这边采用HTTPClient 由于Android 6.0已经删除该类,
-这边libs目录需要加入org.apache.http.legcy.jar依赖包<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;4.JudgeNetWorker 网络状态判断工具类<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;5.Log 日志自定义管理<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;6.ManagerActivity Activity管理工具类<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;7.StrUtils 字符串相关处理工具类，系统信息获取工具类)<br/>
-二.sperferences加入SharePerferences加入封装工具可以快速使用SP进行数据保存配置文件<br/>
-三.Activity基类简单封装BaseActivity和BaseFrameActivity 暂时主要为Toast,LayoutInFlater,打开指定的Activity工具类分装<br/>
-
-后期会持续不断进行更新最新的框架功能，如果有一起合作把这个Android快速开发框架完善起来的~请联系我哦<br/>
-<a href="http://blog.csdn.net/developer_jiangqq" style="text-decoration: none;"  target="_blank"><span style="color:blue;">QQ:781931404</span></a><br/>
-<br/>
+### About me E-mail: jiangqqlmj@163.com
+I WeChat / QQ: 781931404 
+Android technical exchange group: 99787482 Android development group 1: 107086751 Android development group 3: 109244103
 
 
+
+
+# FastDev4Android
+
+This project is Android rapid development framework, the use of AndroidStudio development. Predictive Integration Toolkit, ORM, Network Request (HTTPClint, Volley, OkHttps), data parsing, dependency injection, xutils, asynchronous image loading, two-dimensional code scanning, etc. 
+will include some of the components and controls that are packaged in the work Add the overall project directory as follows:
+FastDev4Android
+
+Package name	description
+Libs	Some public jar package library
+Adapter	adapter
+Application	Global application
+Base	Base class package
+Cache	Data cache related processing
+Common	Public class, or configuration related
+Db	Database operation related
+Event	Event handling related
+Fragment	Fragment operation management
+Html5	Webview processing, rewriting webview
+Json	Json data analysis
+Listlogic	Network data request to load distribution
+Location	Location related
+Model	Entity class
+Push	Message push
+Sensor	Device sensor related
+Spreference	SharedPerference management
+Test	Message push
+Ui	Activity UI related
+Update	APP auto update related
+Utils	Items of various tools
+Widget	Custom controls
+Crash	Custom crash exception handling
+Receiver	Broadcast notification processing
+20151201 Frame update:
+
+A flashback Netease news Tab label and page switching slide; 
+HorizontalScrollView, Fragment, FragmentStatePagerAdapter build Netease news Tab page and slide effect (thirty-six) 
+Design TabLayout build support library (37%) imitation Netease news Tab label effect 
+more content items Please see CSDN blog!
+
+20151119 Framework Update:
+
+A .RecyclerView control fully resolve; 
+RecyclerView completely resolved, so that you fell in love with it (twenty-eight) 
+RecyclerView fully resolve the effect on building a new class Gallery (twenty-nine) 
+RecyclerView fully resolve the combination AA (Android Annotations) injection framework instance ( 30) 
+RecyclerView Full Resolution Brush Refresh With Pullup Load SwipeRefreshLayout (xxii) 
+CardView Full Resolution Used in conjunction with 
+RecyclerView (xxii ) Example Resolution SwipeRefreshLayout + RecyclerView + CardView (35)
+
+2.ViewDragHelper Control Full Resolution ; 
+Artifact ViewDragHelper completely resolved, my mother no longer worry about my custom ViewGroup sliding View operation friends ~ (thirty-three) 
+artifact ViewDragHelper full analysis of the details of the implementation of QQ5.X sliding cool effect (thirty-four)
+
+20151110 Frame Update:
+
+1. Volley network framework is basically used; the 
+    project I use the library reference way to introduce the Volley framework , side Volley library has also been synchronized upload, we can directly compile and run; 
+Volley fully resolved the basis of the use of (twenty-six) 
+Volley completely Analysis of Advanced Practices and Secondary Packaging (27)
+20151101 Frame Update:
+
+Very useful progress indicator AVLoadingIndicatorView use (18) 
+Android MVP development model Detailed (19) 
+Message bus EventBus basic use (twenty) 
+Message bus EventBus source analysis and comparison with the Otto framework (twenty-one) 
+List header 
+(23) 
+BaseAdapterHelper basic use of the introduction, so that you get rid of crazy to write a pile of Adapter trouble (twenty ) to create a text or letter of the picture open source library TextDrawable use and detailed (twenty-two) rewrite WebView page loading and JavaScript injection detailed Four) 
+BaseAdapterHelper Detailed source analysis, so you get rid of crazy to write a pile of Adapter trouble (twenty-five)
+
+20151029 Injection frame update:
+
+Updated uses detailed AndroidAnnotations injection framework: 
+AndroidAnnnotations injection framework introduction and Android Studios basic configuration (a) 
+works AndroidAnnnotations injected frame (B) 
+frame using the AndroidAnnnotations injection injection assembly Components (three) 
+Injection tag Detailed use of AndroidAnnnotations injection framework ( Four) 
+AndroidAnnnotations injection framework using the event binding event Binding (e) 
+AndroidAnnnotations injection framework using thread processing Threading (6) 
+AndroidAnnnotations injection framework using third-party framework integration RoboGuice (seven) 
+AndroidAnnnotations injection framework using third-party framework integrated Otto event Bus (8) 
+AndroidAnnnotations injection framework uses third party framework integration OrmLite (9) 
+AndroidAnnnotations injection framework using best practices for Adapters and lists (x) 
+AndroidAnnnotations injection framework using best practices SharedPreferences (11)
+
+V1.1.1_003 version of the function is as follows:
+
+1. Added immersion status bar function to achieve; 
+Second, the new MVP 
+development mode function Demo; above all of the components in the MainActivity in the corresponding use of examples;
+
+
+
+V1.1_002 version of the function is as follows:
+
+(AutoGallery + FlowIndicator); 
+2. Add a new drop-down refresh component (PullToRefreshListView); 
+3. Add a local lightweight data cache component (ACache); 
+four new Increase the application of custom crash log capture component (CustomCrash); 
+above all of the components in the MainActivity in the corresponding use of examples;
+V1.0_001 version of the function is as follows:
+
+1.Uutils tool class to join 
+    1.DataUtils time and date 
+    processing 2.GuideUtils whether to start the boot 
+    processing flag management 3.IoUtils network request tool class [special attention] side of the use of HTTPClient because Android 6.0 has deleted the class, where the libs directory need to join Org.apache.http.legcy.jar dependency package 
+    4.JudgeNetWorker network state judgment tool class 
+    5.Log log custom 
+    management 6.ManagerActivity Activity management tool class 
+    7.StrUtils string related processing tools, system information acquisition tool category) 
+two .sperferences Add SharePerferences Add encapsulation tool to quickly use SP for data 
+retention configuration file III .Activity base class simple encapsulation BaseActivity and BaseFrameActivity temporarily for Toast, LayoutInFlater, open the specified Activity tool class
+Later will continue to update the latest framework function, if there is a cooperation to the Android rapid development framework to improve the ~ Please contact me Oh 
+: 781931404
